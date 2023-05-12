@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">enk037_lab5</string>
+    <string name="location_image">LOCATION IMAGE</string>
+    <string name="logo_desc">LOGO DESCRIPTION</string>
+    <string name="zone_name">ZONE %s</string>
+    <string name="guest_number">Number of guests %s</string>
+    <string name="dino_number">Number of dinosaurs %s</string>
+    <string name="relocate">RELOCATE A DINOSAUR</string>
+    <string name="holder">COMING SOON!</string>
+
+    <string name="dino1Name">%s</string>
+    <string name="dino1Info">%s,%s</string>
+
+    <string name="dino2Name">%s</string>
+    <string name="dino2Info">%s,%s</string>
+
+    <string name="dino3Name">%s</string>
+    <string name="dino3Info">%s,%s</string>
+
+    <string name="dino4Name">%s</string>
+    <string name="dino4Info">%s,%s</string>
+
+    <string name="dino5Name">%s</string>
+    <string name="dino5Info">%s,%s</string>
+
+    <string name="dino6Name">%s</string>
+    <string name="dino6Info">%s,%s</string>
+
+    <string name="dino7Name">%s</string>
+    <string name="dino7Info">%s,%s</string>
+
+    <string name="dino8Name">%s</string>
+    <string name="dino8Info">%s,%s</string>
+
+    <string name="dino9Name">%s</string>
+    <string name="dino9Info">%s,%s</string>
+
+    <string name="dino10Name">%s</string>
+    <string name="dino10Info">%s,%s</string>
+    <string name="relocate_dinosaur">RELOCATE A DINOSAUR</string>
+    <string name="dino_name">Dinosaur Name:</string>
+    <string name="new_zone">New Zone:</string>
+    <string name="button_relocate">RELOCATE</string>
+    <string name="button_back">MAP</string>
+
+</resources>

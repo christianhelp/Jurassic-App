@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="162dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/zone_name"
+            android:layout_width="244dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingTop="40dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/guests"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/teal_700"
+            android:textSize="11sp" />
+        <TextView
+            android:id="@+id/dinos"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/teal_700"
+            android:textSize="11sp"
+
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/zone_name"
+            android:text="@string/relocate"
+            android:backgroundTint="@android:color/holo_green_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="153dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="114dp"
+            android:layout_height="151dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/dino1Name"
+                android:layout_width="295dp"
+                android:layout_height="50dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="@string/holder"
+                android:textColor="@color/teal_700"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/dino1Info"
+                android:layout_width="295dp"
+                android:layout_height="100dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textColor="@color/teal_700"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/dino2Name"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:text="@string/holder"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/dino2Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/dino3Name"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:text="@string/holder"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/dino3Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/dino4Name"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:text="@string/holder"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/dino4Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/dino5Name"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/holder"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/dino5Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/dino6Name"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/holder"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/dino6Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/dino7Name"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:text="@string/holder"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/dino7Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image8"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/dino8Name"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/holder"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/dino8Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image9"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/dino9Name"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/holder"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/dino9Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image10"
+            android:layout_width="114dp"
+            android:layout_height="128dp"
+            android:contentDescription="@string/logo_desc"
+            app:srcCompat="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dino10Name"
+                android:layout_width="295dp"
+                android:layout_height="68dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="@string/holder"
+                android:textColor="@color/teal_700"
+                android:textSize="12sp" />
+        <TextView
+            android:id="@+id/dino10Info"
+            android:layout_width="295dp"
+            android:layout_height="75dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="@color/teal_700"
+            android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
